@@ -314,4 +314,4 @@ myString myString::substr(const char* sub, int len){
     cout << sub << " not found!!" << endl;
 }
 
-void myString::testfunc(){return;}
+int myString::testfunc(int b){return b;}
