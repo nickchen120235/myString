@@ -313,3 +313,5 @@ myString myString::substr(const char* sub, int len){
     }while(*str1);
     cout << sub << " not found!!" << endl;
 }
+
+void myString::testfunc(){return;}

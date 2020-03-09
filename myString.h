@@ -35,6 +35,8 @@ class myString{
         myString substr(const char*, int);
         int length();
 
+        void testfunc();
+
     friend ostream& operator<<(ostream&, const myString&);
     friend istream& operator>>(istream&, myString&);
 };
